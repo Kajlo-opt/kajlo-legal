@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy · Kajlo</title>
+  <style>
+:root {
+  --bg: #0d0d12;
+  --elevated: #10141a;
+  --surface: #141820;
+  --text: #f2f5f8;
+  --muted: rgba(242, 245, 248, 0.72);
+  --accent: #00e5ff;
+  --radius: 6px;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: linear-gradient(160deg, var(--bg), var(--elevated) 45%, #0a1f24);
+  color: var(--text);
+  line-height: 1.65;
+  min-height: 100vh;
+}
+a { color: var(--accent); }
+header {
+  padding: 28px 20px 12px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+header .brand {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+header nav { margin-top: 12px; font-size: 14px; }
+header nav a { margin-right: 14px; text-decoration: none; }
+header nav a:hover { text-decoration: underline; }
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 8px 20px 64px;
+}
+article {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 28px 22px;
+  border: 1px solid rgba(0, 229, 255, 0.12);
+}
+article h1 { margin-top: 0; font-size: 1.75rem; }
+article h2 { margin-top: 1.6em; font-size: 1.25rem; color: var(--accent); }
+article h3 { margin-top: 1.2em; font-size: 1.05rem; }
+article table { width: 100%; border-collapse: collapse; margin: 1em 0; font-size: 0.95rem; }
+article th, article td {
+  border: 1px solid rgba(242, 245, 248, 0.16);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+article th { background: rgba(0, 229, 255, 0.08); }
+article code {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.92em;
+}
+footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  color: var(--muted);
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand">Kajlo</div>
+    <nav>
+      <a href="../../">Home</a>
+      <a href="../../kajlo/terms/">Terms of Service</a>
+      <a href="../../kajlo/privacy/">Privacy Policy</a>
+    </nav>
+  </header>
+  <main><article><h1>Privacy Policy for Kajlo</h1>
+<p><strong>Last updated:</strong> September 7, 2026</p>
+<p>This Privacy Policy explains how <strong>Kajlo</strong> (“we,” “us,” or “the App”) handles information when you use the Kajlo iOS application (Bundle ID: <code>com.kajlo.project</code>). Kajlo is an outdoor short-video community for discovering trail stories, publishing clips for review, joining official activities with Kajlo Credits, and chatting with offline scripted creator personas.</p>
+<p>By using Kajlo, you agree to this Policy. If you do not agree, please do not use the App.</p>
+<p><strong>Contact:</strong> For privacy, safety, copyright, or account questions, email <strong><a href="mailto:support@kajlo.app">support@kajlo.app</a></strong>.</p>
+<hr>
+<h2>1. Summary</h2>
+<ul>
+<li>Most profile, content, chat, Credits balance, and tool data is stored <strong>locally on your device</strong>.</li>
+<li>We do <strong>not</strong> operate a separate account server that receives your password or full profile for cloud sync in this version.</li>
+<li>Camera, Microphone, Photos, Location, App Tracking Transparency (ATT), and Push Notifications are requested only as described below.</li>
+<li>In-app purchases are processed by <strong>Apple</strong>; we do not receive or store your payment card details.</li>
+<li>Optional <strong>Agnes</strong> text-to-image generation sends only the <strong>prompt text you enter</strong> (and related generation parameters) to a third-party API. No chat LLM is used.</li>
+<li>We do <strong>not</strong> sell your personal information.</li>
+</ul>
+<hr>
+<h2>2. Information we process</h2>
+<h3>2.1 Information you provide on device</h3>
+<p>When you use Quick Login and in-app features, Kajlo may store on your device:</p>
+<ul>
+<li>Local sign-in credentials you create for this App (username/password stored for session unlock on this device only)</li>
+<li>Profile fields: nickname, bio, optional avatar image file path</li>
+<li>Trail videos you record or upload, cover images, publish drafts, and review status metadata</li>
+<li>Favorites, “not interested” flags, blocked creators, reports you submit</li>
+<li>Offline Compass chat threads and scripted message history</li>
+<li>Kajlo Credits balance and a local spend/purchase ledger (amounts and timestamps; not card data)</li>
+<li>Workout Log entries, Trail Goals, Gratitude Journal entries, and Inspiration Board cards (text and optional local images)</li>
+<li>Preference flags such as whether ATT/Push prompts have already been shown</li>
+</ul>
+<h3>2.2 Information from Apple and the device</h3>
+<ul>
+<li><strong>In-App Purchase receipts / StoreKit transaction results</strong> needed to credit Kajlo Credits after a successful purchase</li>
+<li><strong>Approximate location</strong> (when you allow Location) to support nearby trail-oriented browsing; public labels stay at area / route-segment precision — the App does not display exact home/work addresses or IP-based city tags on profiles</li>
+<li><strong>Advertising / tracking authorization status</strong> (ATT) when you respond to Apple’s system prompt</li>
+<li><strong>Push notification authorization status</strong> after you respond to Apple’s system prompt</li>
+<li>Standard iOS diagnostics that remain on device unless you share them with Apple through system tools</li>
+</ul>
+<h3>2.3 Information sent to third-party AI (Agnes)</h3>
+<p>If you use <strong>Generate with Agnes</strong> on the Inspiration Board, the App sends:</p>
+<ul>
+<li>The <strong>text prompt</strong> you typed describing an outdoor scene</li>
+<li>Fixed generation parameters (model name, size/ratio settings)</li>
+</ul>
+<p>The App does <strong>not</strong> send your password, full profile, chat history, Credits ledger, video library, or contact list to Agnes. Generated images returned by the API are saved as local files on your device for Inspiration / optional publish handoff.</p>
+<p>See <strong>Section 5</strong> for more detail.</p>
+<hr>
+<h2>3. How we use information</h2>
+<p>We use on-device and permission-related information to:</p>
+<ul>
+<li>Operate Quick Login, session unlock, Log Out, and Delete Account</li>
+<li>Show the My Trail feed, Outdoor hub, Publish / review flows, Messages (Compass), and Mine tools</li>
+<li>Apply content safety filters, report, block, and hide blocked creators’ content</li>
+<li>Deduct or add Kajlo Credits for eligible features and IAP packs</li>
+<li>Request Camera, Microphone, Photos, Location, ATT, and Push only for the purposes stated in the system permission dialogs and this Policy</li>
+<li>Generate optional Inspiration images via Agnes when you choose that feature</li>
+</ul>
+<p>We do <strong>not</strong> use Kajlo Credits purchases to buy ranking, reach, review speed, or safety-checklist bypass.</p>
+<hr>
+<h2>4. Facial data</h2>
+<p>This section explains Kajlo’s practices regarding facial data for App Store Guideline 2.1 / 5.1.1 review.</p>
+<h3>4.1 What we collect</h3>
+<p>Kajlo does <strong>not</strong> create, store, or process biometric faceprints, face templates, or facial geometry for identification or authentication.</p>
+<p>You may optionally capture or select <strong>photos or video frames that depict a human face</strong> (for example, a profile avatar from Camera or Photos, trail video frames, or Inspiration images that happen to include people). Those media files are ordinary images/video, not biometric identifiers.</p>
+<h3>4.2 Planned use</h3>
+<p>Any photo or video that may depict a face is used only to:</p>
+<ul>
+<li>Display your chosen avatar or trail content inside the App</li>
+<li>Support optional Inspiration Board cards and publish drafts you create</li>
+<li>Allow you to review, delete, or replace that media</li>
+</ul>
+<p>We do not use facial images for biometric login, emotion scoring, or identity matching against other users.</p>
+<h3>4.3 Sharing, disclosure, and where stored</h3>
+<p>Avatar and trail media that may depict a face are stored <strong>on your device</strong> (app sandbox / Documents as applicable). They are not uploaded by Kajlo to a Kajlo-operated cloud profile server in this version.</p>
+<p>If you use Agnes image generation, only the <strong>text prompt</strong> is sent to Agnes; Kajlo does not upload your avatar or library face photos as Agnes reference images in the current implementation.</p>
+<p>We do not sell facial imagery. Disclosure may occur only if required by law or if you yourself export/share media outside the App using the device share sheet.</p>
+<h3>4.4 Retention</h3>
+<p>Facial-depicting media remains on your device until you delete the related content, replace your avatar, clear the related Inspiration/video item, or use <strong>Delete Account</strong>, which clears Kajlo’s local app data domain for this Bundle ID.</p>
+<h3>4.5 Scope of this chapter</h3>
+<p><strong>This Section 4</strong> is the complete explanation of Kajlo’s collection, use, disclosure, sharing, and retention practices for facial data (including that we do not collect biometric faceprints).</p>
+<hr>
+<h2>5. Third-party AI — Agnes image generation</h2>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Detail</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Provider</td>
+<td>Agnes (API host: <code>apihub.agnes-ai.com</code>)</td>
+</tr>
+<tr>
+<td>Feature</td>
+<td>Inspiration Board → “Generate with Agnes”</td>
+</tr>
+<tr>
+<td>Model (current)</td>
+<td><code>agnes-image-2.1-flash</code></td>
+</tr>
+<tr>
+<td>Data sent</td>
+<td>User-entered <strong>prompt text</strong> and generation parameters (e.g., size/ratio)</td>
+</tr>
+<tr>
+<td>Data not sent</td>
+<td>Passwords, profile fields, chats, videos, photo library contents, Credits ledger, device contacts</td>
+</tr>
+<tr>
+<td>Output</td>
+<td>Image bytes/URL returned to the App and saved locally as JPEG</td>
+</tr>
+<tr>
+<td>Chat LLM</td>
+<td><strong>Not used</strong> — creator Compass replies are offline scripted templates on device</td>
+</tr>
+</tbody></table>
+<p>Agnes processes prompts under its own terms and privacy practices. Do not include sensitive personal data in prompts.</p>
+<hr>
+<h2>6. Permissions</h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>When asked</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Camera</td>
+<td>Publish record; Edit Profile take photo</td>
+<td>Shoot outdoor short videos; update avatar</td>
+</tr>
+<tr>
+<td>Microphone</td>
+<td>When recording video with sound</td>
+<td>Capture ambient audio with trail videos</td>
+</tr>
+<tr>
+<td>Photo Library</td>
+<td>Upload video/cover; Inspiration photo; avatar from library</td>
+<td>Select existing media</td>
+</tr>
+<tr>
+<td>Location When In Use</td>
+<td>Nearby / location-gated outdoor features</td>
+<td>Approximate trail-area context; not exact home/work public tags</td>
+</tr>
+<tr>
+<td>App Tracking Transparency</td>
+<td>First appear on Home after login</td>
+<td>Measure outdoor content performance and keep recommendations relevant (Apple system dialog)</td>
+</tr>
+<tr>
+<td>Push Notifications</td>
+<td>Immediately after ATT returns on first Home</td>
+<td>System authorization only; Kajlo does not implement custom notification handlers beyond the permission request in this version</td>
+</tr>
+</tbody></table>
+<p>There is <strong>no</strong> in-app Settings screen to re-trigger permissions. You can change permissions in iOS Settings.</p>
+<hr>
+<h2>7. In-App Purchases and Kajlo Credits</h2>
+<p>Kajlo offers consumable <strong>Kajlo Credits</strong> packs via Apple StoreKit (eight tiers, price-ascending). Example Product IDs include <code>com.kajlo.credits1</code> through <code>com.kajlo.credits8</code>. Payment is processed by Apple. We do not collect or store credit card numbers.</p>
+<p>Credits may be spent on features such as submit/review gates, official activity joins, and Reel Template use as shown in the App. Credits never purchase exposure, ranking, review speed, or safety bypass.</p>
+<p>There is <strong>no</strong> Restore Purchases control; consumable Credits are granted on successful transaction completion on the device.</p>
+<hr>
+<h2>8. Account controls</h2>
+<ul>
+<li><strong>Quick Login</strong> — creates/uses a local session on this device</li>
+<li><strong>Log Out</strong> — ends the session; local data may remain until deleted</li>
+<li><strong>Delete Account</strong> — clears Kajlo’s persistent domain for Bundle ID <code>com.kajlo.project</code>, including profile, videos metadata, chats, Credits display/ledger UI data, tools content, and related local preferences, then returns you to a fresh state</li>
+</ul>
+<p>Apple’s payment records remain under Apple’s systems according to Apple’s policies.</p>
+<hr>
+<h2>9. Children’s privacy</h2>
+<p>Kajlo is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided data in the App, contact <strong><a href="mailto:support@kajlo.app">support@kajlo.app</a></strong> so we can help you remove local data via Delete Account guidance.</p>
+<hr>
+<h2>10. Data security</h2>
+<p>We rely on iOS app sandbox storage and standard device protections. No method of electronic storage is 100% secure. Keep your device locked and updated.</p>
+<hr>
+<h2>11. International users</h2>
+<p>Kajlo is intended for distribution via the US App Store. If you use the App from another region, you do so on your own initiative and are responsible for compliance with local laws.</p>
+<hr>
+<h2>12. Changes to this Policy</h2>
+<p>We may update this Privacy Policy. The “Last updated” date at the top will change when we do. Continued use after an update means you accept the revised Policy.</p>
+<hr>
+<h2>13. Contact</h2>
+<p><strong>Email:</strong> <a href="mailto:support@kajlo.app">support@kajlo.app</a><br><strong>App:</strong> Kajlo (<code>com.kajlo.project</code>)</p>
+<p>For related terms, see the <a href="../terms/">Terms of Service</a>.</p>
+</article></main>
+  <footer>Kajlo legal · Bundle ID com.kajlo.project · English only</footer>
+</body>
+</html>
